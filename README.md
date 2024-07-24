@@ -1,8 +1,8 @@
-# SOAP (Under Construction)
+# 🧼 SOAP (Under Construction)
 - Code for "SOAP: Enhancing Spatio-Temporal Relation and Motion Information Capturing for Few-Shot Action Recognition", accepted by ACM MM'24.
 - [Paper](https://wenbohuang1002.github.io/papers/MM-2024-1.pdf)
 
-# Usage
+# 📹 Usage
 Requirements -> Dataset Preparation -> Training -> Testing
 
 ### Requirements
@@ -51,14 +51,14 @@ The pre-processed dataset is organized with the following structure:
    |   |_ ...
    |_ ...
   ```
-### Training Example
+# ⚙ Training Example
 ```bash
 run_list.sh
 ```
-### Testing Example
+# 🚀 Testing Example
 ```bash
 test_list.sh
 ```
-# Copyright
+# ⚠️ Copyright
 People from my previous group (from 2022.4 to 2023.9). If you open this repo, thank and apologize to me (Wenbo Huang, code holder) by default. <br>
 来自我前课题组（2022.4至2023.9）的人员。倘若打开这一仓库，默认对我(黄文博，代码持有者)表示感谢并道歉。
