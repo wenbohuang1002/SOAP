@@ -1,5 +1,7 @@
 # SOAP (Under Construction)
-Code for "SOAP: Enhancing Spatio-Temporal Relation and Motion Information Capturing for Few-Shot Action Recognition", accepted by ACM MM'24.
+- Code for "SOAP: Enhancing Spatio-Temporal Relation and Motion Information Capturing for Few-Shot Action Recognition", accepted by ACM MM'24.
+- [Paper](https://wenbohuang1002.github.io/papers/MM-2024-1.pdf)
+
 # Usage
 Requirements -> Dataset Preparation -> Training -> Testing
 
