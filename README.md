@@ -1,10 +1,15 @@
 # SOAP
 Code for "SOAP: Enhancing Spatio-Temporal Relation and Motion Information Capturing for Few-Shot Action Recognition", accepted by ACM MM'24.
-# How to Use?
+# Usage
 Dataset Preparation -> Training -> Testing
 ## Dataset Preparation
 ### Dataset Downloading
-[SthSthv2](https://markdown.com.cn) [Kinetics](https://markdown.com.cn) [UCF101](https://markdown.com.cn) [HMDB51](https://markdown.com.cn)
+
+- [SthSthV2](https://20bn.com/datasets/something-something#download)
+- [Kinetics](https://github.com/cvdfoundation/kinetics-dataset)
+- [UCF101](https://www.crcv.ucf.edu/data/UCF101.php)
+- [HMDB51](https://serre-lab.clps.brown.edu/resource/hmdb-a-large-human-motion-database/#Downloads)
+
 ### Frame Decoding
 You can download related code in this [release](https://github.com/wenbohuang1002/video_dateset_clip/releases/tag/data_splits). <br><br>
  The data splts .txt files 
