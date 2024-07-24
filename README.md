@@ -46,5 +46,5 @@ The pre-processed dataset is organized with the following structure:
 # Training
 # Testing
 # Copyright
-People from my old research group, if you open this warehouse. Thank you and apologize to  me (Wenbo Huang, code holder) by default. <br>
+People from my old research group, if you open this repo. Thank and apologize to me (Wenbo Huang, code holder) by default. <br>
 我以前课题组的人，倘若打开这一仓库。默认对我(黄文博，代码持有者)表示感谢并道歉。
