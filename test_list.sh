@@ -1,0 +1,9 @@
+echo "testing task2"
+/home/wenbo/.pyenv/versions/anaconda3-2023.03/envs/hwb/bin/python /home/wenbo/Project/Triple-master/testfull.py --way 5 --shot 1 --dataset kinetics --best_model_path 'best_model/kinetics/1-shot/checkpoint_best_val.pt' > ./test_log/kinetics_1shot.txt
+/home/wenbo/.pyenv/versions/anaconda3-2023.03/envs/hwb/bin/python /home/wenbo/Project/Triple-master/testfull.py --way 5 --shot 5 --dataset kinetics --best_model_path 'best_model/kinetics/5-shot/checkpoint_best_val.pt' > ./test_log/kinetics_5shot.txt
+/home/wenbo/.pyenv/versions/anaconda3-2023.03/envs/hwb/bin/python /home/wenbo/Project/Triple-master/testfull.py --way 5 --shot 1 --dataset ssv2 --best_model_path 'best_model/ssv2/1-shot/checkpoint_best_val.pt' > ./test_log/ssv2_1shot.txt
+/home/wenbo/.pyenv/versions/anaconda3-2023.03/envs/hwb/bin/python /home/wenbo/Project/Triple-master/testfull.py --way 5 --shot 5 --dataset ssv2 --best_model_path 'best_model/ssv2/5-shot/checkpoint_best_val.pt' > ./test_log/ssv2_5shot.txt
+/home/wenbo/.pyenv/versions/anaconda3-2023.03/envs/hwb/bin/python /home/wenbo/Project/Triple-master/testfull.py --way 5 --shot 1 --dataset hmdb --best_model_path 'best_model/hmdb/1-shot/checkpoint_best_val.pt' > ./test_log/hmdb_1shot.txt
+/home/wenbo/.pyenv/versions/anaconda3-2023.03/envs/hwb/bin/python /home/wenbo/Project/Triple-master/testfull.py --way 5 --shot 5 --dataset hmdb --best_model_path 'best_model/hmdb/5-shot/checkpoint_best_val.pt' > ./test_log/hmdb_5shot.txt
+/home/wenbo/.pyenv/versions/anaconda3-2023.03/envs/hwb/bin/python /home/wenbo/Project/Triple-master/testfull.py --way 5 --shot 1 --dataset ucf --best_model_path 'best_model/ucf/1-shot/checkpoint_best_val.pt' > ./test_log/ucf_1shot.txt
+/home/wenbo/.pyenv/versions/anaconda3-2023.03/envs/hwb/bin/python /home/wenbo/Project/Triple-master/testfull.py --way 5 --shot 5 --dataset ucf --best_model_path 'best_model/ucf/5-shot/checkpoint_best_val.pt' > ./test_log/ucf_5shot.txt
