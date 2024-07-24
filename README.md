@@ -1,17 +1,18 @@
 # SOAP
 Code for "SOAP: Enhancing Spatio-Temporal Relation and Motion Information Capturing for Few-Shot Action Recognition", accepted by ACM MM'24.
 # Usage
-Dataset Preparation -> Training -> Testing
-## Dataset Preparation
-### Dataset Downloading
+Requirements -> Dataset Preparation -> Training -> Testing
 
+### Requirements
+- python >= 3.6
+- pytorch >= 1.8
+
+### Data preparation
 - [SthSthV2](https://20bn.com/datasets/something-something#download)
 - [Kinetics](https://github.com/cvdfoundation/kinetics-dataset)
 - [UCF101](https://www.crcv.ucf.edu/data/UCF101.php)
 - [HMDB51](https://serre-lab.clps.brown.edu/resource/hmdb-a-large-human-motion-database/#Downloads)
-
-### Frame Decoding
-You can download related code in this [release](https://github.com/wenbohuang1002/video_dateset_clip/releases/tag/data_splits). <br><br>
+ 
  The data splts .txt files 
 
   ```
@@ -48,8 +49,14 @@ The pre-processed dataset is organized with the following structure:
    |   |_ ...
    |_ ...
   ```
-# Training
-# Testing
+# Training Example
+```bash
+run_list.sh
+```
+# Testing Example
+```bash
+test_list.sh
+```
 # Copyright
 People from my previous group, if you open this repo. Thank and apologize to me (Wenbo Huang, code holder) by default. <br>
 我以前课题组的人，倘若打开这一仓库。默认对我(黄文博，代码持有者)表示感谢并道歉。
