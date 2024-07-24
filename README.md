@@ -51,11 +51,11 @@ The pre-processed dataset is organized with the following structure:
    |   |_ ...
    |_ ...
   ```
-# Training Example
+### Training Example
 ```bash
 run_list.sh
 ```
-# Testing Example
+### Testing Example
 ```bash
 test_list.sh
 ```
