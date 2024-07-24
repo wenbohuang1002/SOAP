@@ -38,7 +38,7 @@ The pre-processed dataset is organized with the following structure:
   datasets
    |_ Kinetics
    | |_ frames
-   |   |_ [class_0}
+   |   |_ [class_0]
    |   | |_ [video_0]
    |   | | |_ img_00001.jpg
    |   | | |_ img_00001.jpg
@@ -47,7 +47,7 @@ The pre-processed dataset is organized with the following structure:
    |   | | |_ img_00001.jpg
    |   | | |_ img_00002.jpg
    |   | | |_ ...
-   |   |_ [class_0}
+   |   |_ [class_1]
    |   |_ ...
    |_ ...
   ```
