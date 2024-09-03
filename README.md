@@ -60,5 +60,5 @@ run_list.sh
 test_list.sh
 ```
 # ⚠️ Copyright
-People from my previous group (from 2022.4 to 2023.9). If you open this repo, thank and apologize to me (Wenbo Huang, code holder) by default. <br>
-来自我前课题组（2022.4至2023.9）的人员。倘若打开这一仓库，默认对我(黄文博，代码持有者)表示感谢并道歉。
+People from my previous group (from 2022.4 to 2023.9). If you open this repo, thank to me (Wenbo Huang, code holder) by default. <br>
+来自我前课题组（2022.4至2023.9）的人员。倘若打开这一仓库，默认对我(黄文博，代码持有者)表示感谢。
