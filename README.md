@@ -55,6 +55,7 @@ The pre-processed dataset is organized with the following structure:
 ```bash
 run_list.sh
 ```
+
 ```run_list.sh
 python runfull.py --way 5 --shot 1 --dataset kinetics --training_iterations 10000 --learning_rate 0.001 --sch 2000 6000 8000
 python runfull.py --way 5 --shot 5 --dataset kinetics --training_iterations 10000 --learning_rate 0.001 --sch 2000 6000 8000
@@ -69,6 +70,17 @@ python runfull.py --way 5 --shot 5 --dataset ssv2 --training_iterations 75000 --
 # 🚀 Testing Example
 ```bash
 test_list.sh
+```
+
+```test_list.sh
+python testfull.py --way 5 --shot 1 --dataset kinetics --best_model_path 'best_model/kinetics/1-shot/checkpoint_best_val.pt' > ./test_log/kinetics_1shot.txt
+python testfull.py --way 5 --shot 5 --dataset kinetics --best_model_path 'best_model/kinetics/5-shot/checkpoint_best_val.pt' > ./test_log/kinetics_5shot.txt
+python testfull.py --way 5 --shot 1 --dataset ssv2 --best_model_path 'best_model/ssv2/1-shot/checkpoint_best_val.pt' > ./test_log/ssv2_1shot.txt
+python testfull.py --way 5 --shot 5 --dataset ssv2 --best_model_path 'best_model/ssv2/5-shot/checkpoint_best_val.pt' > ./test_log/ssv2_5shot.txt
+python testfull.py --way 5 --shot 1 --dataset hmdb --best_model_path 'best_model/hmdb/1-shot/checkpoint_best_val.pt' > ./test_log/hmdb_1shot.txt
+python testfull.py --way 5 --shot 5 --dataset hmdb --best_model_path 'best_model/hmdb/5-shot/checkpoint_best_val.pt' > ./test_log/hmdb_5shot.txt
+python testfull.py --way 5 --shot 1 --dataset ucf --best_model_path 'best_model/ucf/1-shot/checkpoint_best_val.pt' > ./test_log/ucf_1shot.txt
+python testfull.py --way 5 --shot 5 --dataset ucf --best_model_path 'best_model/ucf/5-shot/checkpoint_best_val.pt' > ./test_log/ucf_5shot.txt
 ```
 # ⚠️ Copyright
 People from my previous group (from 2022.4 to 2023.9). If you open this repo, thank to me (Wenbo Huang, code holder) by default. <br>
