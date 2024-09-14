@@ -55,6 +55,17 @@ The pre-processed dataset is organized with the following structure:
 ```bash
 run_list.sh
 ```
+```run_list.sh
+python runfull.py --way 5 --shot 1 --dataset kinetics --training_iterations 10000 --learning_rate 0.001 --sch 2000 6000 8000
+python runfull.py --way 5 --shot 5 --dataset kinetics --training_iterations 10000 --learning_rate 0.001 --sch 2000 6000 8000
+python runfull.py --way 5 --shot 1 --dataset hmdb --training_iterations 10000 --learning_rate 0.001 --sch 2000 6000 8000
+python runfull.py --way 5 --shot 5 --dataset hmdb --training_iterations 10000 --learning_rate 0.001 --sch 2000 6000 8000
+python runfull.py --way 5 --shot 1 --dataset ucf --training_iterations 10000 --learning_rate 0.001 --sch 2000 6000 8000
+python runfull.py --way 5 --shot 5 --dataset ucf --training_iterations 10000 --learning_rate 0.001 --sch 2000 6000 8000
+python runfull.py --way 5 --shot 1 --dataset ssv2 --training_iterations 75000 --learning_rate 0.001 --sch 20000 40000 60000
+python runfull.py --way 5 --shot 5 --dataset ssv2 --training_iterations 75000 --learning_rate 0.001 --sch 20000 40000 60000
+```
+
 # 🚀 Testing Example
 ```bash
 test_list.sh
